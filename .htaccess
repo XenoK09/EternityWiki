@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /
+RewriteRule ^(.*)?$ index.php
+RewriteRule ^(.*)?/edit$ index.php?action=edit

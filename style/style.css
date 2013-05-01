@@ -1,0 +1,79 @@
+div.wikimenu {
+	/* Padding & Margin */
+	padding: 5px;
+	/*margin: 5px 5px 0 5px;*/
+	
+	/* Border */
+	
+	/* Background & Colors */
+	background-color: #DADEDF;
+	position: absolute;
+margin-bottom: 50px;
+	width: 99.2%;
+}
+	div.wikimenu button {
+		/* Padding & Margin */
+		padding: 5px;
+		margin: 0 5px 5px 15px;
+		
+		/* Border */
+		border-radius: 5px;
+		
+		/* Background & Colors */
+		background-color: #666;
+		
+		/* Font */
+		text-transform: uppercase;
+		font-weight: normal;
+		font-size: 18px;
+		font-family: ujack1;
+		 
+		/* Display */
+		opacity: .8;
+		display: inline-block;
+	}
+	
+div#menu {
+	
+	
+	margin: 0 40px 2px 40px;
+	padding: 5px;
+	border-radius: 0 0 25px 25px;
+	background: #009900;
+	border: 1px solid #999;
+	-webkit-transition: opacity 1s, display 1s;
+	-moz-transition: opacity 1s, display 1s;
+	transition: opacity 1s, display 1s;
+	opacity: 0;
+	display: none;
+	text-align: center;
+}
+
+div#menu input{
+	font-family: ujack1;
+}
+
+h1 {
+	border-bottom: 1px solid #000;
+}
+	h1:first-letter {
+		text-transform: uppercase;
+	}
+	
+input[disabled=""]
+{
+	opacity: .5;
+}
+	input[disabled=""]:hover {
+		background: #6F6F6F;
+	}
+	
+textarea[name="code"] {
+	width: 98%;
+	height: 350px;
+}
+
+h2, h3, h4, h5, h6
+{
+margin: 19px;
+}
